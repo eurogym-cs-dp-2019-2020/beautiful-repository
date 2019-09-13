@@ -1,1 +1,3 @@
 cool
+smart
+super
