@@ -24,29 +24,21 @@ footer {
 .high_and_middle {
     background-color: red;
     height: 120px;
-    padding: 10px;
-    margin: 16px;
 }
 
 .primary {
     background-color: orange;
     height: 120px;
-    padding: 10px;
-    margin: 16px;
 }
 
 .kinder {
     background-color: darkgreen;
     height: 120px;
-    padding: 10px;
-    margin: 16px;
 }
 
 .rulers {
     background-color: blue;
     height: 120px;
-    padding: 10px;
-    margin: 16px;
 }
 
 .high_and_middle1 {
@@ -185,4 +177,9 @@ footer {
     padding-left: 8px;
     padding-right: 8px;
     box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
