@@ -1,11 +1,11 @@
 header {
-    background-color: darkblue;
+    background-color: rgb(41, 41, 190);
     height: 120px;
     padding-top: 40px;
 }
 
 main {
-    color: blue;
+    color: rgb(25, 25, 204);
 }
 
 footer {
@@ -22,22 +22,22 @@ footer {
 }
 
 .high_and_middle {
-    background-color: red;
+    background-color: rgb(204, 22, 22);
     height: 120px;
 }
 
 .primary {
-    background-color: orange;
+    background-color: rgb(248, 163, 6);
     height: 120px;
 }
 
 .kinder {
-    background-color: darkgreen;
+    background-color: rgb(10, 126, 10);
     height: 120px;
 }
 
 .rulers {
-    background-color: blue;
+    background-color: rgb(28, 28, 173);
     height: 120px;
 }
 
@@ -72,7 +72,7 @@ footer {
 }
 
 .picture {
-    margin: 16px;
+    margin: 5 px;
 }
 
 .col-1 {
