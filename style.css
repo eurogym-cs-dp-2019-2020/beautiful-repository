@@ -41,36 +41,6 @@ footer {
     height: 120px;
 }
 
-.high_and_middle1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.primary1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.kinder1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.rulers1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.care1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
 .picture {
     margin: 5 px;
 }
@@ -182,4 +152,18 @@ footer {
 .row {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
+
+.section-link {
+    padding: 10px;
+    margin: 10px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 1200px;
+  }
