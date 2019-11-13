@@ -166,4 +166,14 @@ footer {
     padding-left: 1em;
     padding-right: 1em;
     max-width: 1200px;
-  }
+}
+
+@font-face {
+    font-family: woff;
+    font-display: swap;
+    src: url('woff.ttf');
+}
+
+body {
+    font-family: woff; 
+}
