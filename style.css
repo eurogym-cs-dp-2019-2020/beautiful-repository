@@ -2,7 +2,6 @@ header {
     background-color: rgb(41, 41, 190);
     height: 120px;
     padding-top: 40px;
-    padding-left: 150px;
     font-size: 20px;
 }
 
@@ -11,6 +10,7 @@ body {
   padding: 0px;
   background-color: #ededed
 }
+
 main {
     color: rgb(25, 25, 204);
 }
@@ -18,6 +18,7 @@ main {
 footer {
     background-color: black;
     color: white;
+    padding-left: 200px;
 }
 
 .team {
@@ -25,7 +26,7 @@ footer {
     margin-top: 50px;
     padding-left: 20px;
     font-size: 60px;
-  }
+}
 
 .navigation {
     color: black;
@@ -76,6 +77,48 @@ footer {
     padding-left: 1em;
     padding-right: 1em;
     max-width: 1200px;
+}
+
+.ded_inside {
+    font-size: 45px;
+    margin-left: 100px;
+}
+
+hr {
+    border: none; 
+    background-color:blue; 
+    color: blue;
+    height: 2px; 
+}
+
+.fuckoff {
+    border: none; 
+    background-color: white; 
+    color: white; 
+    height: 2px;
+}
+
+.fuck {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.qwerty1 {
+    font-size: 20px;
+}
+
+.qwerty2 {
+    margin-right: 400px;
+}
+
+.qwerty1 {
+    font-size: 20px;
+}
+
+.design {
+    font-size: 15px;
 }
 
 @font-face {
