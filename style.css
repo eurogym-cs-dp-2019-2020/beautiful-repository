@@ -56,6 +56,12 @@ footer {
     font-size: 20px;
 }
 
+.eurogym {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
 .picture {
     margin: 5 px;
 }
@@ -80,7 +86,7 @@ footer {
 }
 
 .ded_inside {
-    font-size: 45px;
+    font-size: 40px;
     margin-left: 100px;
 }
 
@@ -98,13 +104,6 @@ hr {
     height: 2px;
 }
 
-.fuck {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .qwerty1 {
     font-size: 20px;
 }
@@ -113,32 +112,42 @@ hr {
     margin-right: 400px;
 }
 
-.qwerty1 {
-    font-size: 20px;
-}
-
 .design {
     font-size: 15px;
 }
 
-.contact1 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.contact2 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-between;
+.fuck {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .adress {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.OO {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.svedeniya {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 
