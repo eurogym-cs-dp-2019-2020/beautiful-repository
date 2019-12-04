@@ -16,9 +16,10 @@ main {
 }
 
 footer {
-    background-color: black;
+    background-color: rgb(36, 36, 36);
     color: white;
-    padding-left: 200px;
+    padding-left: 150px;
+    padding-bottom: 15px;
 }
 
 .team {
@@ -113,40 +114,37 @@ hr {
 }
 
 .design {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .fuck {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
+    font-size: 15px;
 }
 
 .adress {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .contact {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .OO {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .svedeniya {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
 }
