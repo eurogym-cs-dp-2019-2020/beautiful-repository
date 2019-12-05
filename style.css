@@ -6,9 +6,9 @@ header {
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
-  background-color: #ededed
+    margin: 0px;
+    padding: 0px;
+    background-color: #ededed
 }
 
 main {
@@ -89,13 +89,20 @@ footer {
 .ded_inside {
     font-size: 40px;
     margin-left: 100px;
+    padding-top: 20px;
 }
 
 hr {
     border: none; 
     background-color:blue; 
     color: blue;
-    height: 2px; 
+    height: 2px;
+    margin-top: 10px; 
+}
+
+.titles {
+    font-size: 35px;
+    margin-left: 110px;
 }
 
 .fuckoff {
@@ -129,12 +136,17 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-right: 250px;
+    margin-bottom: 100px;
 }
 
 .contact {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-shrink: 0.00001;
+    margin-right: 40px;
+    line-height: 1.4;
 }
 
 .OO {
@@ -144,9 +156,12 @@ hr {
 }
 
 .svedeniya {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0.00001;
+    margin-right: 40px;
+    line-height: 2.2;
 }
 
 @font-face {
