@@ -166,7 +166,7 @@ hr {
 }
 
 A {
-    color: white;
+    color:white;
     text-decoration: none;
 }
 
@@ -179,7 +179,7 @@ A:hover {
     text-decoration: none;
 }
 A:visited {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 @font-face {
