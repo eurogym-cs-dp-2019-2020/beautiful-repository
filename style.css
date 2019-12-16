@@ -62,13 +62,16 @@ footer {
 
 .links {
     margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .eurogym {
     display: flex;
-    background: green;
-    flex-grow: 2;
+    flex-grow: 2; 
     justify-content: flex-end;
+    padding-right: 25px;
 }
 
 .picture {
@@ -77,12 +80,14 @@ footer {
 
 .justify-content{
     display: flex;
-    justify-content: space-evenly;
     margin-top: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
 .row {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 
