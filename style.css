@@ -5,6 +5,7 @@ header {
     font-size: 20px;
     display: flex;
     justify-content: space-between;
+    flex-flow: row;
 }
 
 body {
@@ -59,17 +60,29 @@ footer {
     font-size: 20px;
 }
 
+.links {
+    margin: 10px;
+}
+
 .eurogym {
     display: flex;
-    margin-right: 100px;
+    background: green;
+    flex-grow: 2;
+    justify-content: flex-end;
 }
+
 .picture {
     margin: 5 px;
 }
 
+.justify-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
 .row {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
 }
 
